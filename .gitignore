@@ -1,0 +1,48 @@
+# Arquivos de simulação do ModelSim
+/work/
+transcript
+*.wlf
+*.vstf
+*.vcd
+*.asdb
+*.do
+*.bak
+
+# Arquivos de saída temporários
+*.log
+*.rpt
+*.out
+*.tmp
+*.jou
+
+# Diretórios de backup/síntese
+*/__pycache__/
+*/simulation/
+*/synthesis/
+*/implementation/
+
+# Resultados intermediários
+*.bin
+*.hex
+*.dat
+
+# Arquivos do Python (se usado)
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Ambiente virtual (se usado)
+.venv/
+env/
+venv/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
