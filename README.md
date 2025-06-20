@@ -74,3 +74,7 @@ O filtro FIR implementado demonstrou comportamento consistente com o especificad
 * Suporte a entrada e saída via arquivos para visualização em ferramentas externas
 
 A validação via simulação e gráficos confirma a funcionalidade do filtro FIR digital com os coeficientes fornecidos, e serve como base sólida para posterior síntese e implementação em hardware reconfigurável.
+
+---
+
+**[Repositório GitHub](https://github.com/marcelo-m7/Filtro-FIR-Digital-em-VHDL)**
