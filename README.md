@@ -49,16 +49,16 @@ O sinal de entrada encontra-se em `src/input_vectors.txt`, e a saída gerada pel
 
 Os gráficos abaixo foram gerados com o script `plot_fir.py`, e representam visualmente o comportamento do filtro:
 
-### 🎵 Entrada (src/input)
+### 🎵 Entrada (src/input_vectors.txt)
 
-![input.png](src/input_vectors.txt)
+![input.png](src/input.png)
 
 * Sinal senoidal puro com frequência constante e sem distorções.
 * Amplitude corresponde a \~50% da escala Q15 (±16384).
 
-### 🔉 Saída (src/output.png)
+### 🔉 Saída (src/output_results.txt)
 
-![output.png](src/output_results.txt)
+![output.png](src/output.png)
 
 * Sinal filtrado suavizado, com leve atenuação nas bordas, típico da resposta de um FIR com janelamento.
 * Confirma que a **frequência de 100 Hz está dentro da banda passante** do filtro FIR projetado.
